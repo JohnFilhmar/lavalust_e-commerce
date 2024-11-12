@@ -1,0 +1,15 @@
+{
+    "name": "jms-eshop/webapp_project",
+    "description": "E-Commerce Website for multihub motorcycle parts and servcies.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "JmsEshop\\WebappProject\\": "app/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "stripe/stripe-php": "^13.6"
+    }
+}
